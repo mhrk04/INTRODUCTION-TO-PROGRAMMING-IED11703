@@ -23,6 +23,17 @@ cout<< R"(
 )"<<"\n";
 
 //Volume of Sphere
+double PI = 3.14;
+double R,VS;
+cout<<"Volume of Sphere Calculator"<<endl;
+// get the radius
+cout<<"Radius : ";
+cin>>R;
+// calculate
+VS = (4*PI/3)*(R*R*R);
+// print the result
+
+cout<<"Volume of Sphere for Radius "+to_string(R)+" is "+to_string(VS);
 
   return 0;
 }
