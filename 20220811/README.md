@@ -10,5 +10,5 @@
 | Algorithms4.cpp    | Algorithms4.exe |`Volume of Sphere(VS)` |
 | Algorithms5.cpp    | Algorithms5.exe    |` Average speed` |
 
-[executable file]()
-[Pseudocode file]()
+[executable file](https://github.com/mhrk04/INTRODUCTION-TO-PROGRAMMING-IED11703/tree/main/20220811/EXE)
+[Pseudocode file](https://github.com/mhrk04/INTRODUCTION-TO-PROGRAMMING-IED11703/blob/main/20220811/Pseudocode.pdf)
