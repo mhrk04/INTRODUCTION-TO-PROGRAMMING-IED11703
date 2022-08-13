@@ -2,6 +2,10 @@
 
 **Lecture week 3 (10-11 August)**
 
+>Course Slide:
+> 1. [Programming Language](https://github.com/mhrk04/INTRODUCTION-TO-PROGRAMMING-IED11703/blob/main/20220811/Intro-Programming-Language.pdf)
+> 2. [Algorithm](https://github.com/mhrk04/INTRODUCTION-TO-PROGRAMMING-IED11703/blob/main/20220811/algorithm.pdf)
+
 | File Names        | EXE file           | Task  |
 | ----------------- |:------------------:| -----:|
 |Algorithms.cpp     | Algorithms.exe | `S = (A + B + C) / Y` |
@@ -11,4 +15,5 @@
 | Algorithms5.cpp    | Algorithms5.exe    |` Average speed` |
 
 [executable file](https://github.com/mhrk04/INTRODUCTION-TO-PROGRAMMING-IED11703/tree/main/20220811/EXE)
+
 [Pseudocode file](https://github.com/mhrk04/INTRODUCTION-TO-PROGRAMMING-IED11703/blob/main/20220811/Pseudocode.pdf)
