@@ -16,25 +16,25 @@ int main(){
   )"<<endl;
 
   cin>>Day;
-  if (Day == 'U')
+  if (Day == 'U'||Day =='u')
   {
     cout<<"It is Sunday today \n";
-  }else if (Day == 'M')
+  }else if (Day == 'M'||Day == 'm')
   {
   cout<<"It is Monday today \n";
-  }else if (Day == 'T')
+  }else if (Day == 'T'||Day == 't')
   {
   cout<<"It is Tuesday today \n";
-  }else if (Day == 'W')
+  }else if (Day == 'W'||Day == 'w')
   {
   cout<<"It is Wednesday today \n";
-  }else if (Day == 'R')
+  }else if (Day == 'R'||Day == 'r')
   {
   cout<<"It is Thursday today \n";
-  }else if (Day == 'F')
+  }else if (Day == 'F'||Day == 'f')
   {
   cout<<"It is Friday today \n";
-  }else if (Day == 'S')
+  }else if (Day == 'S'||Day == 's')
   {
   cout<<"It is Saturday today \n";
   }else
