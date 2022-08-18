@@ -41,9 +41,7 @@ int main(){
   {
     cout<< "Character not valid \n";
   }
-  
-  
-  
+  cin.get();
 
   return 0;
 }
