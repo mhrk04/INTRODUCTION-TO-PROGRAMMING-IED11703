@@ -4,4 +4,6 @@
 
 ## Task
 
-1. Input char to show day
+1. Write a program to accept character input from the keyboard that will display the day of the week according to the character entered.
+
+> For Example, if user entered 'M', Display "It is Monday today" on the screen. Use the nested if techniquw to achieve this (if .. else if....)
