@@ -28,4 +28,5 @@ int i = 1;
   }
   
   cout<<"Game End"<<endl;
+  return 0;
 }
