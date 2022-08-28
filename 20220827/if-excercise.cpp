@@ -26,7 +26,7 @@ int main()
   {
     cout << Name + ", " + to_string(age) + " years old, you are in B40 category." << endl;
   }
-  else if (salary > 4000 && salary < 10000)
+  else if (salary > 4000 && salary <= 10000)
   {
     cout << Name + ", " + to_string(age) + " years old, you are in M40 category." << endl;
   }
