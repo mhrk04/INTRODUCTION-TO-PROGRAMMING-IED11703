@@ -13,7 +13,12 @@ int main()
   case 4:
     cout << "You get A" << endl;
     break;
-
+  case 2:
+    break;
+  case 1:
+    break;
+  case 0:
+    break;
   default:
     cout << "Please enter the valid grade point" << endl;
     break;
