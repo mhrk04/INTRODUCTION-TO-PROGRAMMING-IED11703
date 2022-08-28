@@ -2,25 +2,46 @@
 using namespace std;
 int main()
 {
-  int UserIN;
-  cout << "Please enter your grade point: ";
+  char UserIN;
+  cout << "Please enter a grade: ";
   cin >> UserIN;
 
   // tentukan grade
 
   switch (UserIN)
   {
-  case 4:
-    cout << "You get A" << endl;
+  case 'A':
+    cout << "4.0" << endl;
     break;
-  case 2:
+  case 'a':
+    cout << "4.0" << endl;
     break;
-  case 1:
+  case 'B':
+    cout << "2.7" << endl;
     break;
-  case 0:
+  case 'b':
+    cout << "2.7" << endl;
+    break;
+  case 'C':
+    cout << "2.0" << endl;
+    break;
+  case 'c':
+    cout << "2.0" << endl;
+    break;
+  case 'D':
+    cout << "1.0" << endl;
+    break;
+  case 'd':
+    cout << "1.0" << endl;
+    break;
+  case 'E':
+    cout << "0.0" << endl;
+    break;
+  case 'e':
+    cout << "0.0" << endl;
     break;
   default:
-    cout << "Please enter the valid grade point" << endl;
+    cout << "Please insert the right grade" << endl;
     break;
   }
   return 0;
