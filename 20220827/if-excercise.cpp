@@ -20,9 +20,12 @@ int main()
   // user masukkan gaji
   cout << "Please enter your monthly salary : ";
   cin >> salary;
-
   // show name,age and categary
-  if (salary <= 4000)
+  if (salary == 0)
+  {
+    cout << "Please insert the valid value of your monthly salary" << endl;
+  }
+  else if (salary <= 4000)
   {
     cout << Name + ", " + to_string(age) + " years old, you are in B40 category." << endl;
   }
@@ -33,10 +36,6 @@ int main()
   else if (salary > 10000)
   {
     cout << Name + ", " + to_string(age) + " years old, you are in T20 category." << endl;
-  }
-  else
-  {
-    cout << "Please insert the valid value of your monthly salary" << endl;
   }
 
   cin.get();
