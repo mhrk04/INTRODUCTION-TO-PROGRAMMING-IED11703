@@ -6,9 +6,13 @@ Write a program using a case statement that determines the grade point of a subj
 to the grade entered.
 
 A :4.0
+
 B :2.7
+
 C :2.0
+
 D :1.0
+
 E :0
 
 Display the corresponding grade point on screen together with the grade.
