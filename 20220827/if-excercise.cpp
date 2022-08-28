@@ -22,7 +22,7 @@ int main()
   cin >> salary;
 
   // show name,age and categary
-  if (salary < 4000)
+  if (salary <= 4000)
   {
     cout << Name + ", " + to_string(age) + " years old, you are in B40 category." << endl;
   }
