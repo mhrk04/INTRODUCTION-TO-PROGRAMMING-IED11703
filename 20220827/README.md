@@ -2,8 +2,7 @@
 
 ## 1. Switch Case Excercise
 
-Write a program using a case statement that determines the grade point of a subject according
-to the grade entered.
+Write a program using a case statement that determines the grade point of a subject according to the grade entered.
 
 A :4.0
 
