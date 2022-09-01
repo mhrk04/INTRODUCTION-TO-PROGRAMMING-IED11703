@@ -80,5 +80,14 @@ int main()
 
   // question 4
   // wait.......
+
+  int i = 10;
+  while (i > -1)
+  {
+    cout << "(" + to_string(i) + ")" << endl;
+    i--;
+  }
+  cout << "Terminated" << endl;
+
   return 0;
 }
