@@ -3,7 +3,8 @@ using namespace std;
 int main()
 {
   char UserIN;
-  cout << "Please enter a grade: ";
+  cout << "Grade: A, B, C, D, E" << endl;
+  cout << "Please enter your grade: ";
   cin >> UserIN;
 
   // tentukan grade
