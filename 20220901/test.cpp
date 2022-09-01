@@ -7,7 +7,7 @@ int main()
   // first question
   // set var
   string Name;
-  int Yearofbirth;
+  int Yearofbirth, age;
 
   cout << "Age Calculator" << endl;
   // insert name
@@ -20,7 +20,7 @@ int main()
 
   // calculate
   int currentYear = 2022;
-  int age = currentYear - Yearofbirth;
+  age = currentYear - Yearofbirth;
 
   // result
   cout << "==================================================" << endl;
