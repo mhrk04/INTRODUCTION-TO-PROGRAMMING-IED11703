@@ -56,5 +56,6 @@ int main()
   }
 
   // question 3
+  // Wait for next question
   return 0;
 }
