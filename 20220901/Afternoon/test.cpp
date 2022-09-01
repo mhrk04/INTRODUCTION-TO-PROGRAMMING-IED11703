@@ -77,5 +77,8 @@ int main()
     cout << "Subprime mortgage crisis" << endl;
     break;
   }
+
+  // question 4
+  // wait.......
   return 0;
 }
