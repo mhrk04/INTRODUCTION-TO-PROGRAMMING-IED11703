@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
   // first question
+  // set var
   string Name;
   int Yearofbirth;
 
