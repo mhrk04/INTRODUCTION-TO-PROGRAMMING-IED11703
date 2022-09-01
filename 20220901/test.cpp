@@ -75,5 +75,13 @@ int main()
     cout << "You're now officially a senior citizen" << endl;
     break;
   }
+
+  // question 4
+
+  for (int i = 1; i <= 10; i++)
+  {
+    cout << to_string(i) + ") Congratulation" << endl;
+  }
+
   return 0;
 }
