@@ -25,15 +25,15 @@ int main()
   {
     cout << "Please insert the valid value of your monthly salary" << endl;
   }
-  else if (salary <= 4000)
+  else if (salary < 4000)
   {
     cout << Name + ", " + to_string(age) + " years old, you are in B40 category." << endl;
   }
-  else if (salary > 4000 && salary <= 10000)
+  else if (salary >= 4000 && salary < 10000)
   {
     cout << Name + ", " + to_string(age) + " years old, you are in M40 category." << endl;
   }
-  else if (salary > 10000)
+  else if (salary >= 10000)
   {
     cout << Name + ", " + to_string(age) + " years old, you are in T20 category." << endl;
   }
