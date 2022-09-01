@@ -39,7 +39,7 @@ int main()
   {
     cout << "Baby Boomers" << endl;
   }
-  else if (Yearofbirth > 1965 && Yearofbirth < 1980)
+  else if (Yearofbirth >= 1965 && Yearofbirth < 1980)
   {
     cout << "Generation X" << endl;
   }
@@ -56,5 +56,24 @@ int main()
     cout << "Generation alpha" << endl;
   }
 
+  // questin 3 (switch)
+  switch (age)
+  {
+  case 5:
+    cout << "Entering adolescence" << endl;
+    break;
+  case 13:
+    cout << "Welcome to teenage years" << endl;
+    break;
+  case 18:
+    cout << "Congratulations! You're ad adult" << endl;
+    break;
+  case 40:
+    cout << "Entering Matured Adult Years" << endl;
+    break;
+  case 65:
+    cout << "You're now officially a senior citizen" << endl;
+    break;
+  }
   return 0;
 }
