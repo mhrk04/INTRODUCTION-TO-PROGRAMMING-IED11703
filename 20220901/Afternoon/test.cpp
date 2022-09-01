@@ -57,5 +57,25 @@ int main()
 
   // question 3
   // Wait for next question
+  // switch case
+  cout << "============================================" << endl;
+  switch (Yearofbirth) // var yearofbirth may differ from your var
+  {
+  case 1945:
+    cout << "End of WW2" << endl;
+    break;
+  case 1989:
+    cout << "The fall of USSR" << endl;
+    break;
+  case 1998:
+    cout << "Asian financial crisis" << endl;
+    break;
+  case 2000:
+    cout << "Dotcom bubble" << endl;
+    break;
+  case 2008:
+    cout << "Subprime mortgage crisis" << endl;
+    break;
+  }
   return 0;
 }
